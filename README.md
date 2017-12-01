@@ -1,8 +1,8 @@
 # jkallunki-react-vscode
 Basic prettier and linter setup for VScode React projects
-[Prettier](https://github.com/prettier/prettier)
-[ESlint](https://github.com/eslint/eslint) using [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)  
-[Stylelint](https://github.com/stylelint/stylelint) usfin [Airbnb CSS / Sass Styleguide](https://github.com/airbnb/css)
+* [Prettier](https://github.com/prettier/prettier)
+* [ESlint](https://github.com/eslint/eslint) using [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
+* [Stylelint](https://github.com/stylelint/stylelint) usfin [Airbnb CSS / Sass Styleguide](https://github.com/airbnb/css)
 
 ## On project
 `yarn global add stylelint`  
