@@ -1,7 +1,8 @@
 # jkallunki-react-vscode
-Basic linter setup for VScode React projects  
-ESlint using [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)  
-Stylelint usfin [Airbnb CSS / Sass Styleguide](https://github.com/airbnb/css)
+Basic prettier and linter setup for VScode React projects
+[Prettier](https://github.com/prettier/prettier)
+[ESlint](https://github.com/eslint/eslint) using [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)  
+[Stylelint](https://github.com/stylelint/stylelint) usfin [Airbnb CSS / Sass Styleguide](https://github.com/airbnb/css)
 
 ## On project
 `yarn global add stylelint`  
@@ -15,10 +16,10 @@ Add stylelint script to package.json scripts:
 ```
 
 ## VScode plugins
-* dbaeumer.vscode-eslint
-* esbenp.prettier-vscode
-* dzannotti.vscode-babel-coloring
-* shinnn.stylelint
+* [esbenp.prettier-vscode](https://github.com/prettier/prettier-vscode)
+* [dbaeumer.vscode-eslint](https://github.com/Microsoft/vscode-eslint)
+* [dzannotti.vscode-babel-coloring](https://github.com/dzannotti/vscode-babel)
+* [shinnn.stylelint](https://github.com/shinnn/stylelint-vscode)
 
 ## VScode settings
 Open settings via __CMD + ,__ and add there:
