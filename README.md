@@ -3,6 +3,17 @@ Basic linter setup for VScode React projects
 ESlint using [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)  
 Stylelint usfin [Airbnb CSS / Sass Styleguide](https://github.com/airbnb/css)
 
+## On project
+`yarn global add stylelint`  
+`yarn add --dev babel-eslint prettier-eslint`
+
+Add stylelint script to package.json scripts:
+```
+"scripts": {
+  "stylelint": "stylelint '**/*.scss'; exit 0"
+}
+```
+
 ## VScode plugins
 * dbaeumer.vscode-eslint
 * esbenp.prettier-vscode
@@ -23,16 +34,5 @@ Open settings via __CMD + ,__ and add there:
   "stylelint.enable": true,
   "css.validate": false,
   "scss.validate": false
-}
-```
-
-## On project
-`yarn global add stylelint`  
-`yarn add --dev babel-eslint prettier-eslint`
-
-Add stylelint script to package.json scripts:
-```
-"scripts": {
-  "stylelint": "stylelint '**/*.scss'; exit 0"
 }
 ```
