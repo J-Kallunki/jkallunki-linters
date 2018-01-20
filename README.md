@@ -5,8 +5,7 @@ Basic prettier and linter setup for VScode React projects
 * [Stylelint](https://github.com/stylelint/stylelint) usfin [Airbnb CSS / Sass Styleguide](https://github.com/airbnb/css)
 
 ## On project
-`yarn global add stylelint`  
-`yarn add --dev babel-eslint prettier-eslint stylelint-scss eslint-plugin-jsx-a11y eslint-plugin-import eslint-plugin-react eslint-config-airbnb`
+`yarn add --dev stylelint babel-eslint prettier-eslint stylelint-scss eslint-plugin-jsx-a11y eslint-plugin-import eslint-plugin-react eslint-config-airbnb`
 
 Add stylelint script to package.json scripts:
 ```
